@@ -1,0 +1,132 @@
+
+.background
+{
+	background-image: url(../assets/cc1.jpg);
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	font-family:sans-serif;
+}
+
+.loginbox
+{
+	width:320px;
+	height:420px;
+    color:white;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+    padding:70px 30px;
+}
+
+
+
+.logo {
+	float:center;
+	width:300px;
+	height:300px;
+	}
+
+
+h1
+{
+margin:0;
+padding:0 0 20px;
+text-align:center;
+font-size:22px;
+}
+
+
+.loginbox p
+{
+padding:0px; 	
+margin:0px;
+font-weight:bold;
+}
+
+.loginbox input
+{
+width:100%;
+margin-bottom:20px;
+}
+
+.loginbox input[type="text"],input[type="select"], input[type="password"], input[type="date"]
+{
+border:none;
+border-bottom:1px solid rgb(233, 223, 223);
+background:transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+}
+
+
+
+.loginbox input[type="submit"]
+{
+border: none;
+outline:none;
+height:40px;
+background:red;
+color:white;
+font-size:18px;
+border-radius:20px;
+
+
+}
+
+.loginbox input[type="button"]
+{
+border: none;
+outline:none;
+height:40px;
+background:red;
+color:white;
+font-size:18px;
+border-radius:20px;
+
+
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor:pointed;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a
+{
+    text-decoration:none;
+    font-size:14px;
+    line-height:20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+.logo img{
+	float:center;
+	width:80px;
+	height:auto;
+	}
+
+
+.type
+{
+	border:none;
+border-bottom:1px solid rgb(233, 223, 223);
+background:transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+
+}

@@ -1,0 +1,19 @@
+.profile
+{
+	display: flex;
+	flex-direction: row;
+    
+}
+
+.profile input[type="text"], input[type="password"], input[type="date"]
+{
+border:none;
+border-bottom:1px solid black;
+background:transparent;
+outline:none;
+height:40px;
+color:black;
+font-size:15px;
+}
+
+

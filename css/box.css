@@ -1,0 +1,25 @@
+
+
+.box1 h3
+{ 
+  background-color:transparent;
+  width:300px;
+  border:1px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+.back img {
+	
+	width: 100px;
+	height: 100px;
+}
+.title h2
+{
+	color: white;
+}
+.option{
+	display: flex;
+	flex-direction: row;
+	
+}
